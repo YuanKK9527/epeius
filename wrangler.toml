@@ -2,5 +2,5 @@ name = "hwtro"
 compatibility_date = "2025-06-12"
 main = "_worker.js"
 kv_buckets = [
-  { binding = "KV", bucket_name = "hwtro" }
+  { binding = "hwtro", bucket_name = "KV" }
 ]
