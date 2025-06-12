@@ -4,3 +4,7 @@ main = "_worker.js"
 kv_namespaces = [
   { binding = "KV", id = "hwtro" }
 ]
+
+[[kv_namespaces]]
+binding = "hwtro"
+id = "5db43121c2854c6a9293a82a0d2196d4"
